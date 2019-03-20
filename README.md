@@ -8,9 +8,19 @@
 * Add debug configuration
     * Debug -> Add Configuration -> Chrome: Launch
 * Run Debugger
-    * Debug -> Start Debugger
-    * VS Code will open a new window with Debugger enabled
-    * Debug sidebar will open
-    * Debug toolbar will show at top of VS Code
+    * Debug -> Start Debugger  
+    * In VS Code:
+        * Debug sidebar will open 
+        * Debug toolbar will show at top of VS Code  
+    * VS Code will open a new Chrome window with debugging enabled
         
-        ![Debug Toolbar](/img/debug-toolbar.png)
+Debug Toolbar:  
+![Debug Toolbar](/img/debug-toolbar.png)
+* Handle - Allows you to move the toolbar
+* (![Pause](/img/debug-toolbar-pause.png)/![Pause](/img/debug-toolbar-continue.png)) Pause/Continue - Pause/Continue the debugger, continue will run the application till it hits the next breakpoint
+* (![Step Over](/img/debug-toolbar-stepover.png)) Step Over - Run the code without inspecting
+* (![Step Into](/img/debug-toolbar-stepinto.png)) Step Into - Run the code and "dive" into any functions
+* (![Step Out Of](/img/debug-toolbar-stepoutof.png)) Step Out Of - Run code till out of the current function
+* (![Restart](/img/debug-toolbar-restart.png)) Restart - Restart the debugging section (refreshes the browser)
+* (![Stop](/img/debug-toolbar-stop.png)) Stop - End the debugger session
+
