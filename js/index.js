@@ -19,10 +19,10 @@ function ajaxExample() {
             // output each number to a div
             console.log(response);
             const citiesParent = document.getElementById('output-cities');
-            response.data.forEach(city => {
+            for(const city of response.data) {
                 const cityDiv = createDiv(`${city.id} :: ${city.name}`);
                 citiesParent.appendChild(cityDiv);
-            });
+            }
             citiesParent.appendChild(div);
             console.log('axios call ended');        
         })
@@ -31,7 +31,7 @@ function ajaxExample() {
             console.log(error);
         });
 
-    console.log('axios call started');
+    console.log('after axios call');
     
 }
 
@@ -42,6 +42,4 @@ function createDiv(text) {
 }
 
 const button = document.getElementById('load-cities');
-button.addEventListener('click', function() {
-    ajaxExample();
-});
+button.addEventListener('click', ajaxExample);
