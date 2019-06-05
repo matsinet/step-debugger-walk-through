@@ -1,3 +1,4 @@
+### How to debug JavaScript with VSCode
 * Clone this repo to your computer
 * Install [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) extension in VS Code
 * Install http-server
@@ -14,7 +15,7 @@
         * Debug toolbar will show at top of VS Code  
     * VS Code will open a new Chrome window with debugging enabled
         
-Debug Toolbar:  
+### Debug Toolbar:  
 ![Debug Toolbar](/img/debug-toolbar.png)
 * Handle - Allows you to move the toolbar
 * (![Pause](/img/debug-toolbar-pause.png)/![Pause](/img/debug-toolbar-continue.png)) Pause/Continue - Pause/Continue the debugger, continue will run the application till it hits the next breakpoint
@@ -24,7 +25,7 @@ Debug Toolbar:
 * (![Restart](/img/debug-toolbar-restart.png)) Restart - Restart the debugging section (refreshes the browser)
 * (![Stop](/img/debug-toolbar-stop.png)) Stop - End the debugger session
 
-##### Parcel debug configuration
+### Parcel debug configuration
 ```javascript
 {
     "type": "chrome",
