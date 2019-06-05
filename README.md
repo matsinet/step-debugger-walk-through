@@ -25,7 +25,7 @@ Debug Toolbar:
 * (![Stop](/img/debug-toolbar-stop.png)) Stop - End the debugger session
 
 ##### Parcel debug configuration
-{
+`{
     "type": "chrome",
     "request": "launch",
     "name": "Launch Chrome w/Parcel",
@@ -36,5 +36,5 @@ Debug Toolbar:
     "sourceMapPathOverrides": {
         "*": "${webroot}/src/*"
     }
-}
+}`
 
