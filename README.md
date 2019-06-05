@@ -24,3 +24,17 @@ Debug Toolbar:
 * (![Restart](/img/debug-toolbar-restart.png)) Restart - Restart the debugging section (refreshes the browser)
 * (![Stop](/img/debug-toolbar-stop.png)) Stop - End the debugger session
 
+##### Parcel debug configuration
+{
+    "type": "chrome",
+    "request": "launch",
+    "name": "Launch Chrome w/Parcel",
+    "url": "http://localhost:1234",
+    "webRoot": "${workspaceFolder}",
+    "trace": true,
+    "breakOnLoad": true,
+    "sourceMapPathOverrides": {
+        "*": "${webroot}/src/*"
+    }
+}
+
