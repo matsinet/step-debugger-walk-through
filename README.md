@@ -25,6 +25,12 @@
 * (![Restart](/img/debug-toolbar-restart.png)) Restart - Restart the debugging section (refreshes the browser)
 * (![Stop](/img/debug-toolbar-stop.png)) Stop - End the debugger session
 
+### Console Commands
+* [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)
+    * Invoke the debugger at any time from the browser
+* [console](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+    * The log function is just the beginning
+
 ### Parcel debug configuration
 ```javascript
 {
