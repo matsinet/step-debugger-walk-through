@@ -8,6 +8,8 @@
     * http-server .
 * Add debug configuration
     * Debug -> Add Configuration -> Chrome: Launch
+* Restart VS Code
+    * This assures the debug configuration is available
 * Run Debugger
     * Debug -> Start Debugger  
     * In VS Code:
