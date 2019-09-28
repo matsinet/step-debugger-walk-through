@@ -1,5 +1,6 @@
 !.vscode/launch.json
 .vscode
+.idea
+.cache
 node_modules
 dist
-.cache
