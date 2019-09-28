@@ -8,6 +8,8 @@
     * http-server .
 * Add debug configuration
     * Debug -> Add Configuration -> Chrome: Launch
+* Restart VS Code
+    * This assures the debug configuration is available
 * Run Debugger
     * Debug -> Start Debugger  
     * In VS Code:
@@ -24,6 +26,12 @@
 * (![Step Out Of](/img/debug-toolbar-stepoutof.png)) Step Out Of - Run code till out of the current function
 * (![Restart](/img/debug-toolbar-restart.png)) Restart - Restart the debugging section (refreshes the browser)
 * (![Stop](/img/debug-toolbar-stop.png)) Stop - End the debugger session
+
+### Console Commands
+* [debugger](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger)
+    * Invoke the debugger at any time from the browser
+* [console](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+    * The log function is just the beginning
 
 ### Parcel debug configuration
 ```javascript
