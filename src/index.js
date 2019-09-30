@@ -26,6 +26,7 @@ function addNumbers(total, numbers) {
         let number = numbers.shift();
         total += number;
 
+        // Call the function recursively
         addNumbers(total, numbers);
     }
 
@@ -34,6 +35,7 @@ function addNumbers(total, numbers) {
 // Grab the parent div and append the output of the addNumbers function
 document.getElementById('recursive-addition').appendChild(createDiv(addNumbers(initTotal, integers)));
 
+// Example of a click event with a callback
 function ajaxExample() {
     axios.get('https://my-json-server.typicode.com/matsinet/sc-capstone-api-example/cities')
         .then(response => {
@@ -53,7 +55,6 @@ function ajaxExample() {
         });
 
     console.log('after axios call');
-    
 }
 
 function createDiv(text) {
