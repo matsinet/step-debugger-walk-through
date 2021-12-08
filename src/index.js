@@ -47,6 +47,10 @@ function ajaxExample() {
                 citiesParent.appendChild(cityDiv);
             }
             citiesParent.appendChild(div);
+
+            const outputCities = document.getElementById('output-cities');
+            console.log('matsinet-outputCities:', outputCities);
+
             console.log('axios call ended');        
         })
         .catch(error => {

@@ -1,11 +1,10 @@
 ### How to debug JavaScript with VSCode
 * Clone this repo to your computer
-* Install [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) extension in VS Code
-* Install http-server
-    * npm install -g http-server
+* Install live-server
+    * npm install -g live-server
 * Open project in VS Code
-* Server project with http-server
-    * http-server .
+* Server project with live-server
+    * live-server .
 * Add debug configuration
     * Debug -> Add Configuration -> Chrome: Launch
 * Restart VS Code
