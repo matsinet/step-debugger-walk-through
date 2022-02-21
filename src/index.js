@@ -27,7 +27,7 @@ function addNumbers(total, numbers) {
         total += number;
 
         // Call the function recursively
-        addNumbers(total, numbers);
+        total = addNumbers(total, numbers);
     }
 
     return total;
